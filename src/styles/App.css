@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Noto Serif", serif;
+  line-height: 1.7em;
+  background: #2b9cd9;
+  position: relative;
+  min-height: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+}
+.homepage {
+  position: relative;
+  min-height: 100%;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  overflow: auto;
+}
+/* letters of the Home etc */
+#navbar a {
+  color: #2b9cd9;
+  font-family: "Noto Serif", serif;
+}
+/* Bernie logo */
+#navbar .logo {
+  background: url("../img/bernie-logo.svg") no-repeat center;
+  height: 68px;
+  width: 120px;
+  float: left;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #1688e0;
+  color: #00324d;
+}
